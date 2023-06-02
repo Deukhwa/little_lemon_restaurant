@@ -1,27 +1,19 @@
 import { useState } from 'react';
 import { Box, ChakraProvider, Container } from '@chakra-ui/react';
+import { Routes, Route } from 'react-router-dom';
 
-import Nav from './components/Nav';
 import './App.css';
-import HeroSection from './components/HeroSection';
-import Highlights from './components/Highlights';
-import Testimonials from './components/Testimonials';
-import About from './components/About';
-import Footer from './components/Footer';
+
+import HomePage from './pages/HomePage';
+import BookingPage from './pages/BookingPage';
 
 function App() {
   return (
     <ChakraProvider>
-      <Box textAlign="center" py={8}>
-        <Container maxW="container.lg">
-          <Nav />
-          <HeroSection />
-          <Highlights />
-          <Testimonials />
-          <About />
-          <Footer />
-        </Container>
-      </Box>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/booking" element={<BookingPage />} />
+      </Routes>
     </ChakraProvider>
   );
 }

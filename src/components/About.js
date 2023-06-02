@@ -2,7 +2,13 @@ import { Box, Flex, Heading, Text, Button, Image } from '@chakra-ui/react';
 
 const About = () => {
   return (
-    <Flex align="center" justify="center" py={10} backgroundColor="yellow">
+    <Flex
+      align="center"
+      justify="center"
+      py={10}
+      backgroundColor="yellow"
+      id="about-section"
+    >
       <Box mx="auto">
         <Flex align="center" justify="space-between">
           <Image
