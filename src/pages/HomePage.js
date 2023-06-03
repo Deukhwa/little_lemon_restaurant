@@ -1,4 +1,4 @@
-import { Box, ChakraProvider, Container } from '@chakra-ui/react';
+import { Box, Container } from '@chakra-ui/react';
 
 import Nav from '../components/Nav';
 import HeroSection from '../components/HeroSection';

@@ -1,4 +1,5 @@
 import { Box, HStack, Image } from '@chakra-ui/react';
+import { Link } from 'react-router-dom';
 
 const NavigationBar = () => {
   const handleClick = (anchor) => () => {
@@ -13,7 +14,7 @@ const NavigationBar = () => {
   };
 
   return (
-    <Box py={4} bg="gray.200">
+    <Box py={4}>
       <HStack
         spacing={4}
         alignItems="center"
@@ -29,7 +30,7 @@ const NavigationBar = () => {
           <a href="#menu" onClick={handleClick('menu')}>
             Menu
           </a>
-          <a href="/reservations">Reservations</a>
+          <Link to="/booking">Reservations</Link>
           <a href="/order">Order Online</a>
           <a href="/login">Login</a>
         </HStack>

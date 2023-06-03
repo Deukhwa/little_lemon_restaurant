@@ -2,7 +2,7 @@ import { Box, Flex, Heading, Text, Button, Image } from '@chakra-ui/react';
 
 const HeroSection = () => {
   return (
-    <Flex align="center" justify="center" py={10} backgroundColor="yellow">
+    <Flex align="center" justify="center" py={10}>
       <Box mx="auto">
         <Flex align="center" justify="space-between">
           <Box mr={8}>

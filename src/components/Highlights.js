@@ -32,13 +32,7 @@ const Highlights = () => {
   ];
 
   return (
-    <Box
-      py={8}
-      align="center"
-      justify="center"
-      backgroundColor="green"
-      id="menu"
-    >
+    <Box py={8} align="center" justify="center" id="menu">
       <Heading as="h2" size="lg" mb={6}>
         Highlights
       </Heading>
