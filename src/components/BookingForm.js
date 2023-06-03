@@ -18,7 +18,7 @@ const BookingForm = ({ availableTimes, updateTimes, submitForm }) => {
   const [occasion, setOccasion] = useState('');
   const [isFormValid, setFormValid] = useState(false);
   const [isSubmitted, setSubmitted] = useState(false);
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   const handleDateChange = (e) => {
     const selectedDate = e.target.value;
@@ -43,7 +43,7 @@ const BookingForm = ({ availableTimes, updateTimes, submitForm }) => {
     setSubmitted(true);
 
     // if (isFormValid) {
-    navigate('/confirmed');
+    // navigate('/confirmed');
     // }
   };
 
