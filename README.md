@@ -1,13 +1,5 @@
-Nav (the top-level navigation of the website, sometimes referred to as the navbar)
+React Practice Project
 
-CallToAction (sometimes referred to as the jumbotron or the hero, this component is the call-to-action section that guides the user to click a call-to-action button while enticing them to do so in as few words as possible)
+##
 
-Homepage (the component for the homepage)
-
-Specials (the component that loops over the specials that come from a data source)
-
-CustomersSay (testimonials, including star ratings, customer images and customer details)
-
-Chicago (the component that describes the Little Lemon Chicago restaurant and gives a short backstory for it)
-
-BookingPage (the component for the table reservations page)
+React, ChakraUI
